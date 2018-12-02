@@ -53,3 +53,10 @@ public partial class GioHang : System.Web.UI.Page
         HttpContext.Current.Session["GioHang"] = null;
     }
 }
+
+public class ItemHang
+{
+    public string Name { get; set; }
+    public double Price { get; set; }
+    public string ImageUrl { get; set; }
+}
