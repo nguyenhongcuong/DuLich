@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebsiteDL", "WebsiteDL\", "{CA350438-2D6C-473D-B42E-7CB94A1856BF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50985"
+		Debug.AspNetCompiler.PhysicalPath = "WebsiteDL\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50985\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "true"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50985"
+		Release.AspNetCompiler.PhysicalPath = "WebsiteDL\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50985\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "true"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50981"
+		SlnRelativePath = "WebsiteDL\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA350438-2D6C-473D-B42E-7CB94A1856BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA350438-2D6C-473D-B42E-7CB94A1856BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2310E326-FC21-4235-81B9-EEE2082B0B1D}
+	EndGlobalSection
+EndGlobal

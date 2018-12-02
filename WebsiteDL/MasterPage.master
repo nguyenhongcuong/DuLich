@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder id="head" runat="server" />
+    </title>
+    <link href="StyleSheet.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!-- Header -->
+    <div id="header">
+        <asp:Image id="Banner" ImageUrl="~/Img/Banner.jpg" Width="1000px" Height="100px" runat="server" />
+    <div id="Menu">
+        <ul id="nav">
+                <li class="top"><a href="TrangChu.aspx" class="top_link"><span>Trang chủ</span></a></li>
+                <li class="top"><a href="GioiThieu.aspx" class="top_link"><span>Giới thiệu</span></a></li>
+                <li class="top"><a href="GioHang.aspx" class="top_link"><span>Giỏ hàng</span></a></li>
+                <li class="top"><a href="Dangky.aspx" class="top_link"><span>Đăng kí</span></a></li>
+                <li class="top"><a href="Login.aspx" class="top_link"><span>Đăng nhập</span></a></li>
+        </ul>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+    <!-- End Header -->
+    <!-- Left -->
+    <div id="left">
+        <div class="List_Tour">
+            <div class="thanhngang">Du lịch trong nước</div>
+            <ul>
+                <li><a><span>Du lịch Hạ Long</span></a></li>
+                <li><a><span>Du lịch Ninh Bình</span></a></li>
+                <li><a><span>Du lịch TP Hồ Chí Minh</span></a></li>
+                <li><a><span>Du lịch Côn Đảo</span></a></li>
+                <li><a><span>Du lịch Phú Quốc</span></a></li>
+                <li><a><span>Du lịch Hội An</span></a></li>
+            </ul>
+        </div>
+        <div class="List_Tour">
+            <div class="thanhngang">Du lịch quốc tế</div>
+            <ul>
+                <li><a><span>Du lịch Đài Loan</span></a></li>
+                <li><a><span>Du lịch Trung Quốc</span></a></li>
+                <li><a><span>Du lịch Thái Lan</span></a></li>
+                <li><a><span>Du lịch Singapore</span></a></li>
+                <li><a><span>Du lịch Pháp</span></a></li>
+                <li><a><span>Du lịch Nhật Bản</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Left -->
+    <!-- Mid -->
+    <div id="mid">
+        <asp:ContentPlaceHolder id="Mid" runat="server" />
+    </div>
+    <!-- End Mid -->
+    <!-- Footer -->
+    <div id="footer">
+
+    </div>
+    <!-- End Footer -->
+    </form>
+</body>
+</html>
