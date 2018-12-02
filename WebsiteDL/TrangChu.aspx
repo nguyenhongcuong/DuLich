@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     Trang Chủ</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Mid" Runat="Server">
-    <asp:DataList ID="List_Diadiem" runat="server" RepeatColumns="4" DataKeyField="id" DataSourceID="SqlDataSource1">
+    <asp:DataList ID="List_Diadiem" runat="server" RepeatColumns="4" DataKeyField="id" DataSourceID="SqlDataSource1" OnItemCommand="List_Diadiem_ItemCommand" OnSelectedIndexChanged="List_Diadiem_SelectedIndexChanged">
        <ItemTemplate>
             <div class="Khung">
                 <div class="Diadiem">
@@ -25,7 +25,7 @@
             Loại:
             <asp:Label ID="typeLabel" runat="server" Text='<%# Eval("type") %>' />
                 <br />
-            <asp:Button Text="Đặt Tour" Width="100px" runat="server" ForeColor="Red"/>
+            <asp:Button Text="Đặt Tour" Width="100px" runat="server" ForeColor="Red" OnClick="Unnamed1_Click"/>
                     <br />
                 </div>
             </div>
